@@ -61,14 +61,9 @@ function Dashboard() {
 
   const categories = [
     "all",
-    "elitra-plus-series",
-    "weather-proof-of",
-    "group-sockets",
-    "accessory",
-    "automation-group",
-    "mechanical-group",
-    "cable-trunking",
-    "lighting-group"
+    "Sardines",
+    "Tuna",
+    "Tilapia"
   ];
 
   // Separate visible menu items

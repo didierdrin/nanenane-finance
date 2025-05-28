@@ -36,15 +36,9 @@ const Library = () => {
   const [editingProduct, setEditingProduct] = useState<ProductWithId | null>(null);
 
   const categories = [
-    "all",
-    "elitra-plus-series",
-    "weather-proof-of",
-    "group-sockets",
-    "accessory",
-    "automation-group",
-    "mechanical-group",
-    "cable-trunking",
-    "lighting-group"
+    "Sardines",
+    "Tuna",
+    "Tilapia"
   ];
 
   const [newProduct, setNewProduct] = useState<Partial<Product>>({
