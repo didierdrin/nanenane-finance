@@ -12,6 +12,7 @@ import { FaHome, FaShoppingCart, FaBoxes, FaHistory, FaUser, FaAd, FaQuestionCir
 import Overview from '@/components/Overview';
 import Library from '@/components/Inventory';
 import CurrentOrders from '@/components/CurrentOrders';
+import FisherOrder from '@/components/SupplyOrders';
 import Settings from '@/components/Settings';
 import Search from '@/components/Search';
 
@@ -74,7 +75,8 @@ function Dashboard() {
   const visibleMenuItems = [
     { name: 'overview', icon: FaHome, component: Overview },
     { name: 'Inventory', icon: FaBoxes, component: Library },
-    { name: 'Orders', icon: FaShoppingCart, component: CurrentOrders },
+    { name: 'Orders(SU)', icon: FaShoppingCart, component: FisherOrder },
+    { name: 'Orders(DE)', icon: FaShoppingCart, component: CurrentOrders },
     // { name: 'settings', icon: FaCog, component: Settings },
   ];
 
