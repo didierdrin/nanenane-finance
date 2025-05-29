@@ -102,7 +102,7 @@ const CurrentOrders = () => {
 
   return (
     <div className="bg-white">
-      <Tabs value={currentTab} onChange={handleTabChange} className="border-b">
+      <Tabs value={currentTab} onChange={handleTabChange} className="border-b border-slate-400">
         <Tab label="Pending" />
         <Tab label="Approved" />
         <Tab label="Rejected" />
