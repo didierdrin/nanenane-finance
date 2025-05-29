@@ -20,7 +20,7 @@ const Settings = () => {
     notifications: true,
     darkMode: false,
     language: 'en',
-    currency: 'RWF'
+    currency: 'Shs'
   });
 
   const [phoneNumbers, setPhoneNumbers] = useState<PhoneNumber[]>([]);
@@ -137,7 +137,7 @@ const Settings = () => {
               onChange={handleChange}
               className="w-full p-2 border rounded"
             >
-              <option value="RWF">RWF</option>
+              <option value="Shs">Shs</option>
               <option value="USD">USD</option>
             </select>
           </div> */}

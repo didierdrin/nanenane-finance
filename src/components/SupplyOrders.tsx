@@ -128,7 +128,7 @@ const CurrentOrders = () => {
                 </div>
                 <div className="text-right">
                   <p className="text-sm text-gray-600">Amount to be Paid</p>
-                  <p className="font-bold">RWF {order.amountToBePaid}</p>
+                  <p className="font-bold">Shs {order.amountToBePaid}</p>
                 </div>
               </div>
 
@@ -242,10 +242,10 @@ const CurrentOrders = () => {
                   <h4 className="font-semibold mb-2 text-gray-700">Payment Information</h4>
                   <div className="space-y-2">
                     <p><span className="font-medium">Amount to be Paid:</span> 
-                      <span className="ml-2 font-bold text-green-600">RWF {selectedOrder.amountToBePaid}</span>
+                      <span className="ml-2 font-bold text-green-600">Shs {selectedOrder.amountToBePaid}</span>
                     </p>
                     <p><span className="font-medium">Price per kg:</span> 
-                      <span className="ml-2">RWF {(selectedOrder.amountToBePaid / selectedOrder.fishStockWeight).toFixed(2)}</span>
+                      <span className="ml-2">Shs {(selectedOrder.amountToBePaid / selectedOrder.fishStockWeight).toFixed(2)}</span>
                     </p>
                   </div>
                 </div>

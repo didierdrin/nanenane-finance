@@ -90,7 +90,7 @@ const Search = ({ searchQuery, setEditingProduct }: { searchQuery: string, setEd
               />
               <div className="flex justify-between items-start mb-3">
                 <h4 className="font-semibold text-lg">{data.name}</h4>
-                <span className="font-medium text-green-600">RWF{data.price}</span>
+                <span className="font-medium text-green-600">Shs{data.price}</span>
               </div>
               <p className="text-sm text-gray-600">{data.description}</p>
               <p className="text-sm text-gray-600">Stock: {data.stock_quantity}</p>

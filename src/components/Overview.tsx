@@ -236,11 +236,11 @@ const Overview = () => {
         beginAtZero: true,
         title: {
           display: true,
-          text: 'Amount (RWF)',
+          text: 'Amount (Shs)',
         },
         ticks: {
           callback: function(value: any) {
-            return `RWF ${value.toLocaleString()}`;
+            return `Shs ${value.toLocaleString()}`;
           }
         }
       },
