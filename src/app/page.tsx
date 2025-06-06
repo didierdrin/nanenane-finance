@@ -62,7 +62,7 @@ function Dashboard() {
   const categories = [
     "all",
     "Sardines",
-    "Tuna",
+    "Nile Perch",
     "Tilapia"
   ];
 

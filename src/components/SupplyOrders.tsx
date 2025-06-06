@@ -185,12 +185,20 @@ const CurrentOrders = () => {
                 )}
                 
                 {order.status === 'approved' && (
+                  <>
                   <button
                     onClick={() => handleUpdateOrderStatus(order.id, 'pending')}
                     className="flex-1 bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition-colors"
                   >
                     Mark Pending
                   </button>
+                  <button
+                    onClick={() => handleUpdateOrderStatus(order.id, 'pending')}
+                    className="flex-1 bg-emerald-600 text-white py-2 px-4 rounded hover:bg-emerald-700 transition-colors"
+                  >
+                    Pay
+                  </button>
+                  </>
                 )}
                 
                 {order.status === 'rejected' && (

@@ -37,7 +37,7 @@ const Library = () => {
 
   const categories = [
     "Sardines",
-    "Tuna",
+    "Nile Perch", 
     "Tilapia"
   ];
 
